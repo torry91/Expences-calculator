@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1663100751368-14d0196b37a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#container{
+    background-color: #DAC0A3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 750px;
+    border-radius: 40px;
+    color:#3F2305 ;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mooli', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+h1{
+    align-self: center;
+    font-family: 'Mooli', sans-serif;
+}
+
+input{
+    font-family: 'Mooli', sans-serif;
+    padding: 5px;
+}
+
+#addTip{
+    background-color:#967E76;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Mooli', sans-serif;
+}
+
+#btn{
+    background-color:#8294C4;
+    font-family: 'Mooli', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+#totalToPay{
+    display: flex;
+}
+
+#billCut , #totalTip , #totalDue{
+    font-family: 'Mooli', sans-serif;
+    background-color: #A78295;#4F709C ;
+    margin: 15px;
+    margin-left: 40px;
+    padding: 15px;
+    border: 1px solid black;
+}

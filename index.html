@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<div id = "container">
+    <h1>Moving Company Expences </h1>
+
+<form>
+    <p>Bill</p>
+    <span>$
+        <input type = "text" placeholder = "Bill" id = "bill">
+    </span>
+    <p>Number of people</p>
+    <span>
+        <input type = "text" placeholder = "How many people ?" id = "people">
+    </span>
+    <p>How well did we do ?</p>
+    <button id = "addTip">Bonus ! </button>
+
+    <select id = "tip">
+        <option disabled>Select an option</option>
+        <option value = "0.30">Hardworking ! 30%</option>
+        <option  value = "0.20">Good job ! 20%</option>
+        <option  value = "0.10" selected>it was OK ! 10%</option>
+        <option  value = "0.00">No tips! 0%</option>
+    </select>
+<button id = "btn" >Calculate</button>
+</form>
+
+<div id = "totalToPay">
+    <div id = "billCut">
+        <p>Bill</p>
+        <span>$</span>
+        <span id = "sortBill"></span>
+        <span>per person</span>
+    </div>
+
+    <div id = "totalTip">
+        <p>Bonus</p>
+        <span>$</span>
+        <span id = "sortTip"></span>
+        <span>per person</span>
+    </div>
+
+    <div id = "totalDue">
+        <p>Total Due</p>
+        <span>$</span>
+        <span id = "billAndTip"></span>
+        <span>per person</span>
+    </div>    
+
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="index.js"></script>
+</body>
+</html>
