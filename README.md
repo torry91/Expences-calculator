@@ -2,6 +2,8 @@
 
 ## Overview
 This simple web application helps users calculate the amount to pay per person, including a tip, based on the total bill and the number of people. Users can also choose to add a tip percentage. The application utilizes JavaScript for the calculation logic and integrates SweetAlert2 for user-friendly alert messages.
+<img width="1221" alt="Screenshot 2024-01-27 at 20 30 20" src="https://github.com/torry91/Expences-calculator/assets/149702982/506e224a-3a79-4159-b12c-6d370655ffea">
+
 
 ## Features
 Calculate Amount: Users can input the total bill amount, the number of people, and optionally add a tip percentage. The application calculates and displays the amount to pay per person, the tip amount per person, and the total amount per person.
