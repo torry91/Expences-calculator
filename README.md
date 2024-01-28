@@ -1,4 +1,4 @@
-# Tip Calculator
+# Calculator
 
 ## Overview
 This simple web application helps users calculate the amount to pay per person, including a tip, based on the total bill and the number of people. Users can also choose to add a tip percentage. The application utilizes JavaScript for the calculation logic and integrates SweetAlert2 for user-friendly alert messages.
