@@ -6,7 +6,7 @@ This simple web application helps users calculate the amount to pay per person, 
 ## Features
 Calculate Amount: Users can input the total bill amount, the number of people, and optionally add a tip percentage. The application calculates and displays the amount to pay per person, the tip amount per person, and the total amount per person.
 
-## Input Validation: The application checks for valid inputs, ensuring that the bill amount and the number of people are provided and that the number of people is greater than zero.
+Input Validation: The application checks for valid inputs, ensuring that the bill amount and the number of people are provided and that the number of people is greater than zero.
 
 Tip Option: Users can choose to add a tip percentage to the total bill, distributing it equally among the specified number of people.
 
